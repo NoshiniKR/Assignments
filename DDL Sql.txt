@@ -1,0 +1,29 @@
+
+Define the DB schema using DDL and include some test entries
+
+DDL refers to Data Definition Language , a subset of SQL statements that change the structure of the database schema in some way, typically by creating, deleting, or modifying schema objects such as databases, tables, and views.
+Most Impala DDL statements start with the keywords CREATE , DROP , or ALTER .
+
+commands:
+create table
+alter table
+drop table
+
+To create a table
+
+create a table student(S.no int,name char(20));
+insert into student values(1.'Roja');
+			  (2.'Raja');
+
+
+
+To alter a table
+
+alter table student(name char(30));
+
+
+
+To drop a table
+
+drop table student
+

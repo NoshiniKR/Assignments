@@ -1,0 +1,5 @@
+
+
+Log the IP address, Time, and Browser details explicitly when operations that modify the repository
+
+Through privacy and terms settings we can be able to hide those details
